@@ -4,7 +4,7 @@ from datetime import datetime, timezone
 
 import requests
 
-BINANCE_URL = "https://api.binance.com/api/v3/klines"
+BINANCE_URL = "https://api1.binance.com/api/v3/klines"
 TELEGRAM_URL = "https://api.telegram.org/bot{}/sendMessage"
 
 SYMBOL = "AVAXUSDT"
